@@ -1,0 +1,76 @@
+﻿@using Models
+
+<div class="modal @ModalClass" tabindex="-1" role="dialog" style="display:@ModalDisplay">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title">Modal title</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body">
+                <label>Mã Vòng Xoay</label>
+                <input class="form-control" @bind-value="cbDSVoucher.ID" />
+                <label>Tên</label>
+                <input class="form-control" @bind-value="cbDSVoucher.NAME" />
+                <label>Mô Tả</label>
+                <input class="form-control" @bind-value="cbDSVoucher.DESCRIPTION" />
+                <label>Giá Trị</label>
+                <input class="form-control" @bind-value="cbDSVoucher.VALUE" />
+                <label>Trạng Thái</label>
+                <select class="form-control" @bind="cbDSVoucher.VALUE">
+
+                    @if (cbDSVoucher.VOUCHERSTATUS == "1")
+                    {
+                        <option value="value">Phát Hành </option>
+                        <option value="value">Chờ Phát Hành</option>
+                    }
+                    else
+                    {
+                        <option value="value">Chờ Phát Hành</option>
+                        <option value="value">Phát Hành</option>
+                    }
+
+                </select>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-primary">Save changes</button>
+                <button type="button" class="btn btn-secondary" data-dismiss="modal" @onclick="() => Close()">Close</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+@if (ShowBackdrop)
+{
+    <div class="modal-backdrop fade show"></div>
+}
+
+
+@code {
+    private DSVoucher cbDSVoucher = new DSVoucher();
+
+    public Guid Guid = Guid.NewGuid();
+    public string ModalDisplay = "none;";
+    public string ModalClass = "";
+    public bool ShowBackdrop = false;
+
+    public void Open(DSVoucher data)
+    {
+        ModalDisplay = "block;";
+        ModalClass = "Show";
+        ShowBackdrop = true;
+        StateHasChanged();
+        cbDSVoucher = data;
+    }
+
+    public void Close()
+    {
+        ModalDisplay = "none";
+        ModalClass = "";
+        ShowBackdrop = false;
+        StateHasChanged();
+    }
+}

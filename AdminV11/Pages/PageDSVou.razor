@@ -1,0 +1,60 @@
+﻿@page "/dsvou"
+
+@using Models
+
+@using Services
+
+
+
+<RadzenDataGrid AllowFiltering="true" AllowColumnResize="true" AllowAlternatingRows="false" FilterMode="FilterMode.Advanced" AllowSorting="true" PageSize="6" AllowPaging="true" PagerHorizontalAlign="HorizontalAlign.Left" ShowPagingSummary="true"
+                Data="@empDS" ColumnWidth="300px" LogicalFilterOperator="LogicalFilterOperator.Or" SelectionMode="DataGridSelectionMode.Single" @bind-Value=@selectedDS>
+    <Columns>
+        <RadzenDataGridColumn Property="@nameof(DSVoucher.ID)" Filterable="false" Title="Mã Danh Sách"  Width="80px" TextAlign="TextAlign.Center" />
+        <RadzenDataGridColumn Property="@nameof(DSVoucher.NAME)" Title="Tên Voucher" Width="80px" />
+        <RadzenDataGridColumn Property="@nameof(DSVoucher.DESCRIPTION)" Title="Mô Tả" Width="160px" />
+        <RadzenDataGridColumn Property="@nameof(DSVoucher.VALUE)" Title="Giá Trị" Width="80px" />
+        <RadzenDataGridColumn TItem="DSVoucher" Title="Trạng Thái" Width="80px">
+            <Template Context="data">
+                @if (data.VOUCHERSTATUS == "1")
+                {
+                    <span>Còn</span>
+                }
+                else
+                {
+                    <span>Hết</span>
+                }
+
+            </Template>
+        </RadzenDataGridColumn>
+        <RadzenDataGridColumn TItem="DSVoucher" Title="Thao Tác">
+            <Template Context="data">
+                <AdminV11.Component.Them_DSVoucher @ref="themVou"></AdminV11.Component.Them_DSVoucher>
+                <AdminV11.Component.Sua_DSVoucher @ref="suaVou"></AdminV11.Component.Sua_DSVoucher>
+                <RadzenButton Icon="add" ButtonStyle="ButtonStyle.Success" Size="ButtonSize.Small" Click="() => themVou.Open()" />
+                <RadzenButton Icon="edit" ButtonStyle="ButtonStyle.Info" Size="ButtonSize.Small" Click="() => suaVou.Open(data)" />
+                <RadzenButton Icon="delete" ButtonStyle="ButtonStyle.Danger" Size="ButtonSize.Small" />
+            </Template>
+        </RadzenDataGridColumn>
+    </Columns>
+</RadzenDataGrid>
+
+@code {
+    private AdminV11.Component.Them_DSVoucher themVou { get; set; }
+    private AdminV11.Component.Sua_DSVoucher suaVou { get; set; }
+
+    List<DSVoucher> empDS;
+    IList<DSVoucher> selectedDS;
+
+    protected override async Task OnInitializedAsync()
+    {
+        await base.OnInitializedAsync();
+
+        db_DSVoucher dbDS = new db_DSVoucher();
+
+        empDS = dbDS.GetDSVouchers();
+
+        selectedDS = new List<DSVoucher>() { empDS.FirstOrDefault() };
+    }
+}
+
+

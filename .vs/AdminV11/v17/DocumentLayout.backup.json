@@ -1,0 +1,262 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\AdminV11\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{7E702E7C-EA0B-436C-A54D-B7785A5FCE68}|AdminV11\\AdminV11.csproj|d:\\adminv11\\adminv11\\pages\\pagedsvou.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{7E702E7C-EA0B-436C-A54D-B7785A5FCE68}|AdminV11\\AdminV11.csproj|solutionrelative:adminv11\\pages\\pagedsvou.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7E702E7C-EA0B-436C-A54D-B7785A5FCE68}|AdminV11\\AdminV11.csproj|d:\\adminv11\\adminv11\\pages\\pagekh.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{7E702E7C-EA0B-436C-A54D-B7785A5FCE68}|AdminV11\\AdminV11.csproj|solutionrelative:adminv11\\pages\\pagekh.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7E702E7C-EA0B-436C-A54D-B7785A5FCE68}|AdminV11\\AdminV11.csproj|d:\\adminv11\\adminv11\\services\\db_dsvoucher.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7E702E7C-EA0B-436C-A54D-B7785A5FCE68}|AdminV11\\AdminV11.csproj|solutionrelative:adminv11\\services\\db_dsvoucher.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7E702E7C-EA0B-436C-A54D-B7785A5FCE68}|AdminV11\\AdminV11.csproj|d:\\adminv11\\adminv11\\pages\\pagevoucher.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{7E702E7C-EA0B-436C-A54D-B7785A5FCE68}|AdminV11\\AdminV11.csproj|solutionrelative:adminv11\\pages\\pagevoucher.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7E702E7C-EA0B-436C-A54D-B7785A5FCE68}|AdminV11\\AdminV11.csproj|d:\\adminv11\\adminv11\\services\\db_voucher.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7E702E7C-EA0B-436C-A54D-B7785A5FCE68}|AdminV11\\AdminV11.csproj|solutionrelative:adminv11\\services\\db_voucher.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7E702E7C-EA0B-436C-A54D-B7785A5FCE68}|AdminV11\\AdminV11.csproj|d:\\adminv11\\adminv11\\services\\db_dskhachhang.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7E702E7C-EA0B-436C-A54D-B7785A5FCE68}|AdminV11\\AdminV11.csproj|solutionrelative:adminv11\\services\\db_dskhachhang.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7E702E7C-EA0B-436C-A54D-B7785A5FCE68}|AdminV11\\AdminV11.csproj|d:\\adminv11\\adminv11\\_imports.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{7E702E7C-EA0B-436C-A54D-B7785A5FCE68}|AdminV11\\AdminV11.csproj|solutionrelative:adminv11\\_imports.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7E702E7C-EA0B-436C-A54D-B7785A5FCE68}|AdminV11\\AdminV11.csproj|d:\\adminv11\\adminv11\\layout\\navmenu.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{7E702E7C-EA0B-436C-A54D-B7785A5FCE68}|AdminV11\\AdminV11.csproj|solutionrelative:adminv11\\layout\\navmenu.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7E702E7C-EA0B-436C-A54D-B7785A5FCE68}|AdminV11\\AdminV11.csproj|d:\\adminv11\\adminv11\\models\\dskhachhang.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7E702E7C-EA0B-436C-A54D-B7785A5FCE68}|AdminV11\\AdminV11.csproj|solutionrelative:adminv11\\models\\dskhachhang.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7E702E7C-EA0B-436C-A54D-B7785A5FCE68}|AdminV11\\AdminV11.csproj|d:\\adminv11\\adminv11\\models\\dsvoucher.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7E702E7C-EA0B-436C-A54D-B7785A5FCE68}|AdminV11\\AdminV11.csproj|solutionrelative:adminv11\\models\\dsvoucher.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7E702E7C-EA0B-436C-A54D-B7785A5FCE68}|AdminV11\\AdminV11.csproj|d:\\adminv11\\adminv11\\models\\voucher.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7E702E7C-EA0B-436C-A54D-B7785A5FCE68}|AdminV11\\AdminV11.csproj|solutionrelative:adminv11\\models\\voucher.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7E702E7C-EA0B-436C-A54D-B7785A5FCE68}|AdminV11\\AdminV11.csproj|d:\\adminv11\\adminv11\\component\\sua_voucher.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{7E702E7C-EA0B-436C-A54D-B7785A5FCE68}|AdminV11\\AdminV11.csproj|solutionrelative:adminv11\\component\\sua_voucher.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7E702E7C-EA0B-436C-A54D-B7785A5FCE68}|AdminV11\\AdminV11.csproj|d:\\adminv11\\adminv11\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7E702E7C-EA0B-436C-A54D-B7785A5FCE68}|AdminV11\\AdminV11.csproj|solutionrelative:adminv11\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7E702E7C-EA0B-436C-A54D-B7785A5FCE68}|AdminV11\\AdminV11.csproj|d:\\adminv11\\adminv11\\app.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{7E702E7C-EA0B-436C-A54D-B7785A5FCE68}|AdminV11\\AdminV11.csproj|solutionrelative:adminv11\\app.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "PageDSVou.razor",
+              "DocumentMoniker": "D:\\AdminV11\\AdminV11\\Pages\\PageDSVou.razor",
+              "RelativeDocumentMoniker": "AdminV11\\Pages\\PageDSVou.razor",
+              "ToolTip": "D:\\AdminV11\\AdminV11\\Pages\\PageDSVou.razor",
+              "RelativeToolTip": "AdminV11\\Pages\\PageDSVou.razor",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-08T06:50:36.523Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "PageKH.razor",
+              "DocumentMoniker": "D:\\AdminV11\\AdminV11\\Pages\\PageKH.razor",
+              "RelativeDocumentMoniker": "AdminV11\\Pages\\PageKH.razor",
+              "ToolTip": "D:\\AdminV11\\AdminV11\\Pages\\PageKH.razor",
+              "RelativeToolTip": "AdminV11\\Pages\\PageKH.razor",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAABsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-08T06:50:05.143Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "db_Voucher.cs",
+              "DocumentMoniker": "D:\\AdminV11\\AdminV11\\Services\\db_Voucher.cs",
+              "RelativeDocumentMoniker": "AdminV11\\Services\\db_Voucher.cs",
+              "ToolTip": "D:\\AdminV11\\AdminV11\\Services\\db_Voucher.cs",
+              "RelativeToolTip": "AdminV11\\Services\\db_Voucher.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-08T06:48:08.853Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "PageVoucher.razor",
+              "DocumentMoniker": "D:\\AdminV11\\AdminV11\\Pages\\PageVoucher.razor",
+              "RelativeDocumentMoniker": "AdminV11\\Pages\\PageVoucher.razor",
+              "ToolTip": "D:\\AdminV11\\AdminV11\\Pages\\PageVoucher.razor",
+              "RelativeToolTip": "AdminV11\\Pages\\PageVoucher.razor",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAAADEAAAAwAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-08T06:48:32.749Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "db_DSVoucher.cs",
+              "DocumentMoniker": "D:\\AdminV11\\AdminV11\\Services\\db_DSVoucher.cs",
+              "RelativeDocumentMoniker": "AdminV11\\Services\\db_DSVoucher.cs",
+              "ToolTip": "D:\\AdminV11\\AdminV11\\Services\\db_DSVoucher.cs",
+              "RelativeToolTip": "AdminV11\\Services\\db_DSVoucher.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwBIAAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-08T06:47:52.873Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "db_DSKhachHang.cs",
+              "DocumentMoniker": "D:\\AdminV11\\AdminV11\\Services\\db_DSKhachHang.cs",
+              "RelativeDocumentMoniker": "AdminV11\\Services\\db_DSKhachHang.cs",
+              "ToolTip": "D:\\AdminV11\\AdminV11\\Services\\db_DSKhachHang.cs",
+              "RelativeToolTip": "AdminV11\\Services\\db_DSKhachHang.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-08T06:47:44.916Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "DSKhachHang.cs",
+              "DocumentMoniker": "D:\\AdminV11\\AdminV11\\Models\\DSKhachHang.cs",
+              "RelativeDocumentMoniker": "AdminV11\\Models\\DSKhachHang.cs",
+              "ToolTip": "D:\\AdminV11\\AdminV11\\Models\\DSKhachHang.cs",
+              "RelativeToolTip": "AdminV11\\Models\\DSKhachHang.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-08T06:47:31.725Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "DSVoucher.cs",
+              "DocumentMoniker": "D:\\AdminV11\\AdminV11\\Models\\DSVoucher.cs",
+              "RelativeDocumentMoniker": "AdminV11\\Models\\DSVoucher.cs",
+              "ToolTip": "D:\\AdminV11\\AdminV11\\Models\\DSVoucher.cs",
+              "RelativeToolTip": "AdminV11\\Models\\DSVoucher.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-08T06:47:28.252Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Voucher.cs",
+              "DocumentMoniker": "D:\\AdminV11\\AdminV11\\Models\\Voucher.cs",
+              "RelativeDocumentMoniker": "AdminV11\\Models\\Voucher.cs",
+              "ToolTip": "D:\\AdminV11\\AdminV11\\Models\\Voucher.cs",
+              "RelativeToolTip": "AdminV11\\Models\\Voucher.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-08T06:47:19.111Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Sua_Voucher.razor",
+              "DocumentMoniker": "D:\\AdminV11\\AdminV11\\Component\\Sua_Voucher.razor",
+              "RelativeDocumentMoniker": "AdminV11\\Component\\Sua_Voucher.razor",
+              "ToolTip": "D:\\AdminV11\\AdminV11\\Component\\Sua_Voucher.razor",
+              "RelativeToolTip": "AdminV11\\Component\\Sua_Voucher.razor",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABoAAAA6AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-08T06:45:51.544Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "NavMenu.razor",
+              "DocumentMoniker": "D:\\AdminV11\\AdminV11\\Layout\\NavMenu.razor",
+              "RelativeDocumentMoniker": "AdminV11\\Layout\\NavMenu.razor",
+              "ToolTip": "D:\\AdminV11\\AdminV11\\Layout\\NavMenu.razor",
+              "RelativeToolTip": "AdminV11\\Layout\\NavMenu.razor",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAABqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-08T06:44:26.169Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\AdminV11\\AdminV11\\Program.cs",
+              "RelativeDocumentMoniker": "AdminV11\\Program.cs",
+              "ToolTip": "D:\\AdminV11\\AdminV11\\Program.cs",
+              "RelativeToolTip": "AdminV11\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-08T06:43:58.254Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "App.razor",
+              "DocumentMoniker": "D:\\AdminV11\\AdminV11\\App.razor",
+              "RelativeDocumentMoniker": "AdminV11\\App.razor",
+              "ToolTip": "D:\\AdminV11\\AdminV11\\App.razor",
+              "RelativeToolTip": "AdminV11\\App.razor",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAB1AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-08T06:43:45.82Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "_Imports.razor",
+              "DocumentMoniker": "D:\\AdminV11\\AdminV11\\_Imports.razor",
+              "RelativeDocumentMoniker": "AdminV11\\_Imports.razor",
+              "ToolTip": "D:\\AdminV11\\AdminV11\\_Imports.razor",
+              "RelativeToolTip": "AdminV11\\_Imports.razor",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-08T06:41:27.075Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

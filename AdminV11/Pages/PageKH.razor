@@ -1,0 +1,48 @@
+﻿@page "/khachhang"
+
+@using Models
+
+@using Services
+
+<RadzenDataGrid AllowFiltering="true" AllowColumnResize="true" AllowAlternatingRows="false" FilterMode="FilterMode.Advanced" AllowSorting="true" PageSize="6" AllowPaging="true" PagerHorizontalAlign="HorizontalAlign.Left" ShowPagingSummary="true"
+                Data="@empKH" ColumnWidth="300px" LogicalFilterOperator="LogicalFilterOperator.Or" SelectionMode="DataGridSelectionMode.Single" @bind-Value=@selectedKH>
+    <Columns>
+        <RadzenDataGridColumn Property="@nameof(DSKhachHang.CYCLE_CODE)" Filterable="false" Title="Mã Vòng Quay" Width="80px" TextAlign="TextAlign.Center" />
+        <RadzenDataGridColumn Property="@nameof(DSKhachHang.PRODUCT_CODE)" Title="Mã Sản Phẩm" Width="80px" TextAlign="TextAlign.Center" />
+        <RadzenDataGridColumn Property="@nameof(DSKhachHang.CUSTOMER_NAME)" Title="Tên Khách Hàng" Width="160px" />
+        <RadzenDataGridColumn TItem="DSKhachHang" Title="Thao Tác">
+            <Template Context="data">
+                <RadzenStack Orientation="Orientation.Horizontal" Gap="0.5rem">
+                <AdminV11.Component.Them_KH @ref="themKH"></AdminV11.Component.Them_KH>
+                <AdminV11.Component.Sua_KH @ref="suaKH"></AdminV11.Component.Sua_KH>
+                <AdminV11.Component.ChiTietKH @ref="ChiTiet"></AdminV11.Component.ChiTietKH>
+                <RadzenButton Icon="add" ButtonStyle="ButtonStyle.Success" Size="ButtonSize.Small" Click="() => themKH.Open()" />
+                <RadzenButton Icon="edit" ButtonStyle="ButtonStyle.Info" Size="ButtonSize.Small" Click="() => suaKH.Open(data)" />
+                <RadzenButton Icon="delete" ButtonStyle="ButtonStyle.Danger" Size="ButtonSize.Small" />
+                <RadzenButton Text="Chi Tiết" ButtonStyle="ButtonStyle.Primary" Size="ButtonSize.Small" Click="() => ChiTiet.Open(data)" />
+                </RadzenStack>
+            </Template>
+        </RadzenDataGridColumn>
+    </Columns>
+</RadzenDataGrid>
+
+@code {
+    private AdminV11.Component.Them_KH themKH { get; set; }
+    private AdminV11.Component.Sua_KH suaKH { get; set; }
+    private AdminV11.Component.ChiTietKH ChiTiet { get; set; }
+
+    List<DSKhachHang> empKH;
+    IList<DSKhachHang> selectedKH;
+
+    protected override async Task OnInitializedAsync()
+    {
+        await base.OnInitializedAsync();
+
+        db_DSKhachHang dbKH = new db_DSKhachHang();
+
+        empKH = dbKH.GetKH();
+
+        selectedKH = new List<DSKhachHang>() { empKH.FirstOrDefault() };
+    }
+}
+

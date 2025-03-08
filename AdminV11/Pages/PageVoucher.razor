@@ -1,0 +1,56 @@
+﻿@page "/voucher"
+
+@using Models
+
+@using Services
+
+<RadzenDataGrid AllowFiltering="true" AllowColumnResize="true" AllowAlternatingRows="false" FilterMode="FilterMode.Advanced" AllowSorting="true" PageSize="6" AllowPaging="true" PagerHorizontalAlign="HorizontalAlign.Left" ShowPagingSummary="true"
+Data="@empVoucher" ColumnWidth="300px" LogicalFilterOperator="LogicalFilterOperator.Or" SelectionMode="DataGridSelectionMode.Single" @bind-Value=@selectedVoucher>
+    <Columns>
+        <RadzenDataGridColumn Property="@nameof(Voucher.CYCLE_CODE)" Filterable="false" Title="Mã Vòng Quay"  Width="80px" TextAlign="TextAlign.Center" />
+        <RadzenDataGridColumn Property="@nameof(Voucher.PRODUCT_CODE)" Filterable="false" Title="Mã Sản Phẩm" Width="80px" />
+        <RadzenDataGridColumn Property="@nameof(Voucher.PRODUCT_NAME)" Filterable="false" Title="Tên Sản Phẩm" Width="160px" />
+        <RadzenDataGridColumn TItem="Voucher" Filterable="false" Title="Trạng Thái" Width="120px">
+            <Template Context="data">
+                @if (data.STATUS_CODE == "1")
+                {
+                    <span>Phát Hành</span>
+                }
+                else
+                {
+                    <span>Chờ Phát Hành</span>
+                }
+
+            </Template>
+        </RadzenDataGridColumn>
+        <RadzenDataGridColumn Property="@nameof(Voucher.UPDATE_DATE)" Filterable="false" Title="Ngày Cập Nhật" Width="100px" />
+        <RadzenDataGridColumn TItem="Voucher" Title="Thao Tác">
+            <Template Context="data">
+                <AdminV11.Component.Them_Voucher @ref="themVou"></AdminV11.Component.Them_Voucher>
+                <AdminV11.Component.Sua_Voucher @ref="suaVou"></AdminV11.Component.Sua_Voucher>
+                <RadzenButton Icon="add" ButtonStyle="ButtonStyle.Success" Size="ButtonSize.Small" Click="() => themVou.Open()" />
+                <RadzenButton Icon="edit" ButtonStyle="ButtonStyle.Info" Size="ButtonSize.Small" Click="() => suaVou.Open(data)" />
+                <RadzenButton Icon="delete" ButtonStyle="ButtonStyle.Danger" Size="ButtonSize.Small" />
+            </Template>
+        </RadzenDataGridColumn>
+    </Columns>
+</RadzenDataGrid>
+
+@code {
+    private AdminV11.Component.Them_Voucher themVou { get; set; }
+    private AdminV11.Component.Sua_Voucher suaVou { get; set; }
+
+    List<Voucher> empVoucher;
+    IList<Voucher> selectedVoucher;
+
+    protected override async Task OnInitializedAsync()
+    {
+        await base.OnInitializedAsync();
+
+        db_Voucher dbVoucher = new db_Voucher();
+
+        empVoucher = dbVoucher.GetVouchers();
+
+        selectedVoucher = new List<Voucher>() { empVoucher.FirstOrDefault() };
+    }
+}

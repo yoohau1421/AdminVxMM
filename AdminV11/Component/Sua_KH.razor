@@ -1,0 +1,103 @@
+﻿@using Models
+
+<div class="modal @ModalClass" tabindex="-1" role="dialog" style="display:@ModalDisplay">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title">Modal title</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body">
+                <label>Mã Vòng Xoay</label>
+                <input class="form-control" @bind-value="cbKH.CYCLE_CODE" />
+                
+                <label>Mã Sản Phẩm</label>
+                <input class="form-control" @bind-value="cbKH.PRODUCT_CODE" />
+                
+                <label>Tên Sản Phẩm</label>
+                <input class="form-control" @bind-value="cbKH.PRODUCT_NAME" />
+                
+                <label>Họ và Tên Khách Hàng</label>
+                <input class="form-control" @bind-value="cbKH.CUSTOMER_NAME" />
+                
+                <label>Số Điện Thoại</label>
+                <input class="form-control" @bind-value="cbKH.PHONE" />
+                
+                <label>Mô Tả Ngắn</label>
+                <input class="form-control" @bind-value="cbKH.SHORT_DESCRIPTION" />
+                
+                <label>Trạng Thái</label>
+                <select class="form-control" @bind="cbKH.REWARD_STATUS">
+
+                    @if (cbKH.REWARD_STATUS == "1")
+                    {
+                        <option value="value">Đã Trao Giải</option>
+                        <option value="value">Chờ Trao Giải</option>
+                    }
+                    else
+                    {
+                        <option value="value">Chờ Trao Giải</option>
+                        <option value="value">Đã Trao Giải</option>
+                    }
+
+                </select>
+                
+                <label>Người Trao Giải</label>
+                <select class="form-control" @bind="cbKH.REWARD_PROVIDER">
+                    <option>Nhân Viên A </option>
+                    <option>Nhân Viên B </option>
+                    <option>Nhân Viên C </option>
+                </select>
+
+                <label>Ngày Trúng Giải</label>
+                <input class="form-control" @bind-value="cbKH.WINNING_DATE" />
+                
+                <label>Ngày Xử Lý</label>
+                <input class="form-control" @bind-value="cbKH.PROCESS_DATE" />
+            
+            </div>
+            
+            <div class="modal-footer">
+                <button type="button" class="btn btn-primary">Save changes</button>
+                <button type="button" class="btn btn-secondary" data-dismiss="modal" @onclick="() => Close()">Close</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+@if (ShowBackdrop)
+{
+    <div class="modal-backdrop fade show"></div>
+}
+
+
+@code {
+    private DSKhachHang cbKH = new DSKhachHang();
+
+    public Guid Guid = Guid.NewGuid();
+    public string ModalDisplay = "none;";
+    public string ModalClass = "";
+    public bool ShowBackdrop = false;
+
+    public void Open(DSKhachHang data)
+    {
+        ModalDisplay = "block;";
+        ModalClass = "Show";
+        ShowBackdrop = true;
+        StateHasChanged();
+        cbKH = data;
+    }
+
+    public void Close()
+    {
+        ModalDisplay = "none";
+        ModalClass = "";
+        ShowBackdrop = false;
+        StateHasChanged();
+    }
+}
+
+
