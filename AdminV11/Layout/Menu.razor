@@ -1,0 +1,52 @@
+﻿<head>
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+<div class="d-flex">
+        <!-- Sidebar -->
+        <div class="sidebar">
+            <div class="ps-5"><i class='bx bxs-home'></i> Trang Chủ</div>
+            <div class="ps-2 pt-2">Quản Lý Voucher
+                <ul>
+                    <a href="/dsvou">
+                        <li class="ps-3" style="list-style: none;"><i class='bx bxl-tailwind-css'></i> Danh Sách Voucher
+                        </li>
+                    </a>
+                </ul>
+            </div>
+            <div class="ps-2 pt-2">Quản Lý Vòng Xoay
+                <ul>
+                    <a href="/voucher">
+                        <li class="ps-3" style="list-style: none;"><i class='bx bxs-circle-three-quarter'></i> Voucher
+                            Vòng Xoay</li>
+                    </a>
+                    <a href="/khachhang">
+                        <li class="ps-3" style="list-style: none;"><i class='bx bx-user'></i> Khách Hàng</li>
+                    </a>
+                </ul>
+            </div>
+            <div class="ps-2 pt-2">Quản Lý Sử Dụng
+                <ul>
+                    <a href="http:Google.com">
+                        <li class="ps-3" style="list-style: none;"><i class='bx bxs-memory-card' ></i> Voucher Đã phát hành </li>
+                    </a>
+                    <a href="http:Google.com">
+                        <li class="ps-3" style="list-style: none;"><i class='bx bx-user-check' ></i> Voucher Đã Có Khách Hàng</li>
+                    </a>
+                    <a href="http:Google.com">
+                        <li class="ps-3" style="list-style: none;"><i class='bx bx-check-double' ></i> Voucher Đã Sử Dụng</li>
+                    </a>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+@code {
+    private bool collapseNavMenu = true;
+
+    private string? NavMenuCssClass => collapseNavMenu ? "collapse" : null;
+
+    private void ToggleNavMenu()
+    {
+        collapseNavMenu = !collapseNavMenu;
+    }
+}

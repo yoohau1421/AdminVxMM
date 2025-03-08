@@ -21,73 +21,81 @@ build_property._SupportedPlatformList = browser
 build_property._SupportedPlatformList = browser
 build_property.RootNamespace = AdminV11
 build_property.RootNamespace = AdminV11
-build_property.ProjectDir = D:\AdminV11\AdminV11\
+build_property.ProjectDir = D:\Ad11\AdminVxMM\AdminV11\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = false
 build_property.RazorLangVersion = 8.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = D:\AdminV11\AdminV11
+build_property.MSBuildProjectDirectory = D:\Ad11\AdminVxMM\AdminV11
 build_property._RazorSourceGeneratorDebug = 
 build_property.EffectiveAnalysisLevelStyle = 8.0
 build_property.EnableCodeStyleSeverity = 
 
-[D:/AdminV11/AdminV11/App.razor]
+[D:/Ad11/AdminVxMM/AdminV11/App.razor]
 build_metadata.AdditionalFiles.TargetPath = QXBwLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/AdminV11/AdminV11/Component/ChiTietKH.razor]
+[D:/Ad11/AdminVxMM/AdminV11/Component/ChiTietKH.razor]
 build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50XENoaVRpZXRLSC5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/AdminV11/AdminV11/Component/Sua_DSVoucher.razor]
+[D:/Ad11/AdminVxMM/AdminV11/Component/Sua_DSVoucher.razor]
 build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50XFN1YV9EU1ZvdWNoZXIucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/AdminV11/AdminV11/Component/Sua_KH.razor]
+[D:/Ad11/AdminVxMM/AdminV11/Component/Sua_KH.razor]
 build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50XFN1YV9LSC5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/AdminV11/AdminV11/Component/Sua_Voucher.razor]
+[D:/Ad11/AdminVxMM/AdminV11/Component/Sua_Voucher.razor]
 build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50XFN1YV9Wb3VjaGVyLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/AdminV11/AdminV11/Component/Them_DSVoucher.razor]
+[D:/Ad11/AdminVxMM/AdminV11/Component/Them_DSVoucher.razor]
 build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50XFRoZW1fRFNWb3VjaGVyLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/AdminV11/AdminV11/Component/Them_KH.razor]
+[D:/Ad11/AdminVxMM/AdminV11/Component/Them_KH.razor]
 build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50XFRoZW1fS0gucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/AdminV11/AdminV11/Component/Them_Voucher.razor]
+[D:/Ad11/AdminVxMM/AdminV11/Component/Them_Voucher.razor]
 build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50XFRoZW1fVm91Y2hlci5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/AdminV11/AdminV11/Pages/Home.razor]
+[D:/Ad11/AdminVxMM/AdminV11/Pages/Home.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSG9tZS5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/AdminV11/AdminV11/Pages/PageDSVou.razor]
+[D:/Ad11/AdminVxMM/AdminV11/Pages/PageDSVou.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUGFnZURTVm91LnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/AdminV11/AdminV11/Pages/PageKH.razor]
+[D:/Ad11/AdminVxMM/AdminV11/Pages/PageKH.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUGFnZUtILnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/AdminV11/AdminV11/Pages/PageVoucher.razor]
+[D:/Ad11/AdminVxMM/AdminV11/Pages/PageVoucher.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUGFnZVZvdWNoZXIucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/AdminV11/AdminV11/_Imports.razor]
+[D:/Ad11/AdminVxMM/AdminV11/_Imports.razor]
 build_metadata.AdditionalFiles.TargetPath = X0ltcG9ydHMucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/AdminV11/AdminV11/Layout/MainLayout.razor]
+[D:/Ad11/AdminVxMM/AdminV11/Layout/MainLayout.razor]
 build_metadata.AdditionalFiles.TargetPath = TGF5b3V0XE1haW5MYXlvdXQucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = b-k9cd3pp70c
 
-[D:/AdminV11/AdminV11/Layout/NavMenu.razor]
+[D:/Ad11/AdminVxMM/AdminV11/Layout/Menu.razor]
+build_metadata.AdditionalFiles.TargetPath = TGF5b3V0XE1lbnUucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = b-qcu7xbukvb
+
+[D:/Ad11/AdminVxMM/AdminV11/Layout/MenuV1.razor]
+build_metadata.AdditionalFiles.TargetPath = TGF5b3V0XE1lbnVWMS5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = b-plzoje6xc9
+
+[D:/Ad11/AdminVxMM/AdminV11/Layout/NavMenu.razor]
 build_metadata.AdditionalFiles.TargetPath = TGF5b3V0XE5hdk1lbnUucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = b-9s7xu7jw34

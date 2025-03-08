@@ -1,0 +1,28 @@
+body[b-qcu7xbukvb] {
+    background-color: #f8f9fa;
+    margin-left: 300px;
+}
+
+.sidebar[b-qcu7xbukvb] {
+    width: 250px;
+    height: 100vh;
+    background: #343a40;
+    color: white;
+    padding-top: 20px;
+}
+
+    .sidebar a[b-qcu7xbukvb] {
+        color: white;
+        text-decoration: none;
+        padding: 10px;
+        display: block;
+    }
+
+        .sidebar a:hover[b-qcu7xbukvb] {
+            background: #495057;
+        }
+
+.submenu[b-qcu7xbukvb] {
+    display: none;
+    padding-left: 20px;
+}

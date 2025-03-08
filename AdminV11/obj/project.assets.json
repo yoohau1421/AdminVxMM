@@ -3116,11 +3116,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\AdminV11\\AdminV11\\AdminV11.csproj",
+      "projectUniqueName": "D:\\Ad11\\AdminVxMM\\AdminV11\\AdminV11.csproj",
       "projectName": "AdminV11",
-      "projectPath": "D:\\AdminV11\\AdminV11\\AdminV11.csproj",
+      "projectPath": "D:\\Ad11\\AdminVxMM\\AdminV11\\AdminV11.csproj",
       "packagesPath": "C:\\Users\\admin\\.nuget\\packages\\",
-      "outputPath": "D:\\AdminV11\\AdminV11\\obj\\",
+      "outputPath": "D:\\Ad11\\AdminVxMM\\AdminV11\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
