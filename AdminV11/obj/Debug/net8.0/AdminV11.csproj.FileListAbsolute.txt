@@ -2366,6 +2366,6 @@ D:\Ad11\AdminVxMM\AdminV11\obj\Debug\net8.0\AdminV11.pdb
 D:\Ad11\AdminVxMM\AdminV11\obj\Debug\net8.0\ref\AdminV11.dll
 D:\Ad11\AdminVxMM\AdminV11\obj\Debug\net8.0\scopedcss\Layout\Menu.razor.rz.scp.css
 D:\Ad11\AdminVxMM\AdminV11\obj\Debug\net8.0\scopedcss\Layout\MenuV1.razor.rz.scp.css
-D:\Ad11\AdminVxMM\AdminV11\obj\Debug\net8.0\compressed\85fcbvp6jg-upb2dqo6yt.gz
-D:\Ad11\AdminVxMM\AdminV11\obj\Debug\net8.0\compressed\h4n2t46ysh-ijj3uv3tn3.gz
-D:\Ad11\AdminVxMM\AdminV11\obj\Debug\net8.0\compressed\m6mks41d1t-1l61gatmq1.gz
+D:\Ad11\AdminVxMM\AdminV11\obj\Debug\net8.0\compressed\85fcbvp6jg-eb3c44slau.gz
+D:\Ad11\AdminVxMM\AdminV11\obj\Debug\net8.0\compressed\h4n2t46ysh-cm7dfbg1kj.gz
+D:\Ad11\AdminVxMM\AdminV11\obj\Debug\net8.0\compressed\m6mks41d1t-g8wb57jebp.gz

@@ -1,7 +1,7 @@
 {
   "mainAssemblyName": "AdminV11",
   "resources": {
-    "hash": "sha256-fTiCKsE4W5fZ3BJMkGXbdGZcE0EumBJju7TyPEYVy70=",
+    "hash": "sha256-/wKTZIjIp8doT5E6u9jyR4ZPTQlSFyhrWTfryMqUMwI=",
     "jsModuleNative": {
       "dotnet.native.js": "sha256-xNQsYHtL1vcbrVTHDZAwJM4WovpoyjsrM2C6FQ8cW1w="
     },
@@ -212,10 +212,10 @@
       "mscorlib.wasm": "sha256-RAf5jgXLg+06C4tJ3CabxAZaVjCN2/+E6fxRjRN8yHk=",
       "netstandard.wasm": "sha256-KCAE8RQwTurP5pGnGF819qf9sK++2O0rXzt6tOjlfi8=",
       "System.Private.CoreLib.wasm": "sha256-LQqLbHgeEX4HONx7GwIxGgmzIXP6n2OPxqnq+/4Tyqk=",
-      "AdminV11.wasm": "sha256-LoM39DVWFMWKbZmW0uOhUIQD6YHtbCh7a3jAIRPNqls="
+      "AdminV11.wasm": "sha256-yq/8wurqZoc07GeKuCq7a6OnAgs3uf98lU8LEqXDv3g="
     },
     "pdb": {
-      "AdminV11.pdb": "sha256-rq/6+kcWKPAX7iq6+fcRRZ6knup3oCDqmb0IfQO2kh8="
+      "AdminV11.pdb": "sha256-LN0BKpofxQC+5Nm5WG4Qi5hl5wsiPfS2Gwq6mMhX3Ok="
     },
     "satelliteResources": {
       "cs": {

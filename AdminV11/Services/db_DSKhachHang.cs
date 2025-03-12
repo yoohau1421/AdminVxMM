@@ -10,6 +10,7 @@ namespace AdminV11.Services
 
             KhachHang.Add(new DSKhachHang
             {
+                CUSTOMER_ID = "KH1",
                 CYCLE_CODE = "VQ1",
                 PRODUCT_CODE = "SP1",
                 PRODUCT_NAME = "Dien Thoai",
@@ -24,6 +25,7 @@ namespace AdminV11.Services
             });
             KhachHang.Add(new DSKhachHang
             {
+                CUSTOMER_ID = "KH2",
                 CYCLE_CODE = "VQ2",
                 PRODUCT_CODE = "SP2",
                 PRODUCT_NAME = "Dien Dien",
@@ -38,6 +40,7 @@ namespace AdminV11.Services
             });
             KhachHang.Add(new DSKhachHang
             {
+                CUSTOMER_ID = "KH3",
                 CYCLE_CODE = "VQ3",
                 PRODUCT_CODE = "SP3",
                 PRODUCT_NAME = "Ti Vi",

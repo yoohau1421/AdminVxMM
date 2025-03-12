@@ -2,6 +2,7 @@
 {
     public class DSKhachHang
     {
+        public string CUSTOMER_ID { get; set; }
         public string CYCLE_CODE { get; set; }
 
         public string PRODUCT_CODE { get; set; }
